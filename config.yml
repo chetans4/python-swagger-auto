@@ -1,0 +1,11 @@
+pyms:
+  services:
+    service_discovery:
+      service: "service.ServiceDiscoveryConsulBasic"
+      host: "localhost"
+      autoregister: true
+  config:
+    DEBUG: true
+    TESTING: false
+    APP_NAME: "Python Microservice Discovery one"
+    APPLICATION_ROOT: ""
